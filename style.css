@@ -116,12 +116,11 @@ section {
 }
 
 /* Hero Section - Fixed at 350px */
-/* Hero Section - Fixed at 350px */
 .hero-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-align: center;
-    height: 350px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
