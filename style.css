@@ -115,15 +115,14 @@ section {
     display: none;
 }
 
-/* Hero Section - FIXED at 120px with background image */
+/* Hero Section - Fixed at 120px with background image */
 .hero-section {
     background-image: url('https://images.unsplash.com/photo-1504384925-48de65c034f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    /* Add the gradient as a separate layer */
-    background-color: rgba(0, 0, 0, 0.8); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
     background-blend-mode: multiply; /* Optional: Blend mode for better visual integration */
 
     color: white;
@@ -135,7 +134,6 @@ section {
     padding: 0;
     margin: 0;
 }
-
 .hero-content h2 {
     font-size: 24px;
     margin-bottom: 8px;
