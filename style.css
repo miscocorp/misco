@@ -117,10 +117,15 @@ section {
 
 /* Hero Section - FIXED at 120px with background image */
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1504384925-48de65c034f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background-image: url('https://images.unsplash.com/photo-1504384925-48de65c034f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    /* Add the gradient as a separate layer */
+    background-color: rgba(0, 0, 0, 0.8); /* Fallback color */
+    background-blend-mode: multiply; /* Optional: Blend mode for better visual integration */
+
     color: white;
     text-align: center;
     height: 120px;
