@@ -115,7 +115,7 @@ section {
     display: none;
 }
 
-/* Hero Section - Fixed at 350px */
+/* Hero Section - FIXED at 150px */
 .hero-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -124,17 +124,19 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .hero-content h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 32px;
+    margin-bottom: 10px;
     font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
     opacity: 0.9;
 }
 
@@ -142,18 +144,19 @@ section {
     background-color: #ff6b35;
     color: white;
     border: none;
-    padding: 15px 30px;
-    font-size: 18px;
+    padding: 10px 20px;
+    font-size: 14px;
     font-weight: 600;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
     background-color: #e55a2b;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
+
 /* Equipment Section */
 .equipment-section {
     background-color: #fff;
@@ -486,7 +489,11 @@ section {
     }
     
     .hero-content h2 {
-        font-size: 36px;
+        font-size: 24px;
+    }
+    
+    .hero-content p {
+        font-size: 14px;
     }
     
     .categories-grid {
@@ -518,11 +525,11 @@ section {
     }
     
     .hero-content h2 {
-        font-size: 28px;
+        font-size: 20px;
     }
     
     .hero-content p {
-        font-size: 16px;
+        font-size: 12px;
     }
     
     .section-container {
