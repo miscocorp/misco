@@ -58,49 +58,17 @@ body {
     background-color: rgba(255, 107, 53, 0.1);
 }
 
-/* Hero Section - Fixed at 120px with Background Image */
-.hero-section {
-    background-image: url('https://images.unsplash.com/photo-1504384925-48de65c034f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    height: 120px;
+/* Main Content Styles */
+.main-content {
+    min-height: calc(100vh - 140px);
+}
+
+section {
+    padding: 80px 0;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-.hero-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-
-.hero-content p {
-    font-size: 16px;
-    margin-bottom: 15px;
-    opacity: 0.9;
-}
-
-.cta-button {
-    background-color: #ff6b35;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #e55a2b;
-    transform: translateY(-1px);
+    position: relative;
 }
 
 /* Back to Top Arrow Styles */
@@ -145,6 +113,55 @@ body {
 /* Hide the arrow for the home section since it's already at the top */
 #home .back-to-top {
     display: none;
+}
+
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1504384925-48de65c034f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Add the gradient as a separate layer */
+    background-color: rgba(0, 0, 0, 0.8); /* Fallback color */
+    background-blend-mode: multiply; /* Optional: Blend mode for better visual integration */
+
+    color: white;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-content h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e55a2b;
+    transform: translateY(-1px);
 }
 
 /* Equipment Section */
@@ -483,7 +500,7 @@ body {
     }
     
     .hero-content p {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .categories-grid {
@@ -519,7 +536,7 @@ body {
     }
     
     .hero-content p {
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .section-container {
