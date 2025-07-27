@@ -115,12 +115,15 @@ section {
     display: none;
 }
 
-/* Hero Section - FIXED at 150px */
+/* Hero Section - FIXED at 120px with background image */
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1504384925-48de65c034f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
-    height: 80px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,14 +132,14 @@ section {
 }
 
 .hero-content h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 8px;
     font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 14px;
+    margin-bottom: 12px;
     opacity: 0.9;
 }
 
@@ -144,10 +147,10 @@ section {
     background-color: #ff6b35;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 8px 16px;
+    font-size: 12px;
     font-weight: 600;
-    border-radius: 20px;
+    border-radius: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -489,11 +492,11 @@ section {
     }
     
     .hero-content h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .hero-content p {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .categories-grid {
@@ -525,11 +528,11 @@ section {
     }
     
     .hero-content h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .hero-content p {
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .section-container {
