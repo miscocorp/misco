@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import HomePage from './pages/HomePage/HomePage';
 import CategoryPage from './pages/CategoryPage/CategoryPage';
-import EquipmentDetails from './pages/EquipmentDetails/EquipmentDetails';
+import EquipmentDetails from './pages/EquipmentDetails/EquipmentDetails.jsx';
 import Footer from './components/Footer/Footer';
 
 function App() {
