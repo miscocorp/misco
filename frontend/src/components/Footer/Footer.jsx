@@ -58,7 +58,7 @@ const Footer = () => {
             <h4 className="footer-title">Download our Apps</h4>
             <div className="app-links">
               <a href="#" className="app-link google-play">
-                <GooglePlay size={24} />
+                <Play size={24} />
                 <div className="app-info">
                   <span className="app-text">Get it on</span>
                   <span className="app-name">Google Play</span>
