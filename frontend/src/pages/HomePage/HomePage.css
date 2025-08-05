@@ -1,0 +1,21 @@
+.home-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+/* Add smooth scrolling and better spacing */
+.home-page section {
+  scroll-margin-top: 80px;
+}
+
+/* Global section spacing */
+.home-page section:not(:last-child) {
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 0;
+  }
+}
